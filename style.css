@@ -1,0 +1,334 @@
+
+  @import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+  
+  body {
+    background:white ;
+    cursor: pointer;
+    box-shadow: 0px 10px 10px rgba(0, 0, 0, 0,1);
+    transition: all 0.3s ease-out;
+   
+  
+}
+
+span {
+    color: royalblue;
+   text-shadow: 3px 3px white;
+    text-align: right;
+}
+* {
+    font-family: 'Poppins', sans-serif;
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    scroll-behavior: smooth;
+    outline: none;
+    font-family: 'poppins' sans-serif;
+   
+}
+
+header{
+    width: 100%;
+    background-color: royalblue;
+    position: fixed;
+    z-index: 999;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 4px ;
+    
+}
+.logo {
+    text-decoration: none;
+    float: right;
+    padding: 9px ;
+    color: white;
+    font-weight: 700;
+    font-size: 1.8em;
+}
+.navigation a {
+    color: white;
+    text-decoration: none;
+    font-size: 1.1em;
+    font-weight: 500;
+    padding-left: 30px; 
+}
+.navigation a:hover {
+    color: black ;
+}
+
+section {
+    padding: 100px 200px;
+}
+.main {
+    width: 200%;
+    min-height: 100vh;
+    display: flex;
+    align-items: center;
+   background: url(network-mesh-wire-digital-technology-background_1017-27428.jpg) no-repeat;
+   background-attachment: fixed;
+   background-position: center;
+   background-size:cover;
+}
+ 
+.main h2 {
+    direction: rtl;
+    color:black;
+    font-size: 1.4em;
+    font-weight: bold;
+}
+.main h2 span {
+    display:inline-block;
+    margin-top: 10px;
+    color: royalblue;
+    font-size: 1.4em;
+    font-weight: bold;
+}
+
+h3 { 
+    text-shadow: none;
+    color: blue;
+    position: absolute;
+    margin: 0px;
+   margin-left: 20px;
+   margin-bottom:80px ;
+}
+.wrapper.button.icon{
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+p.content {
+    color: royalblue;
+    text-align: center;
+    font-size: 25px;
+    font-weight: bold;
+    padding: 2px 2px;
+    margin: 2px 3px ;
+}
+p.ll {
+   
+   
+    text-shadow: 1px white;
+    position: absolute;
+    padding: 40px;
+    margin-left:550px ;
+    margin-bottom:550px;
+    font-weight: 500;
+    color: black;
+    font-size: 30px;
+    text-align: right;
+    font-weight: 500;
+    font-style: oblique;
+ 
+}
+
+
+.video-container.video {
+    flex: 1 1 40rem;
+    position: relative;
+    width: 100px;
+    
+}
+.video-container video {
+    width: 50%;
+    border: 1.5rem solid white;
+    height: 100%;
+    object-fit: cover;
+   
+}
+.title{
+    display: flex;
+    justify-content: center;
+    color:royalblue;
+    font-size: 2.2em;
+    font-weight: 800;
+    margin-bottom: 30px;
+}
+
+.content {
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+    flex-wrap: wrap;
+  
+  
+}
+
+.المنتجات.content{
+    margin-top: 90px;
+
+}
+.card{
+    background: OldLace;
+    border : 1px solid black;
+    min-height: 14em;
+    width: 20em;
+    overflow: hidden;
+    border-radius: 10px;
+    margin: 20px;
+    transition: 0.7s ease;
+
+}
+
+.card:hover {
+    transform: scale(1.1);
+}
+
+.img img {
+    width: 100%;
+
+}
+.card.info{
+    padding: 1em;
+    box-shadow: 5px black;
+    justify-content: space-around;
+
+}
+
+h3 {
+    padding: 1em;
+    margin-left: 5px;
+    color: black;
+    box-shadow: 5px black;
+    justify-content: space-between;
+}
+
+.info{
+    text-align: center;
+    padding: 1em;
+    box-shadow: 5px black;
+}
+
+.المشروعات{ 
+    background:black;
+
+}
+.المشروعات.content{
+    margin-top: 30px;
+
+}
+.project-card{
+    background: OldLace;
+    border : 1px solid royalblue;
+    min-height: 14em;
+    width: 23em;
+    overflow: hidden;
+    border-radius: 10px;
+    margin: 20px;
+    transition: 0.7s ease;
+}
+.project-card:hover {
+    transform: scale(1.1);
+}
+.project-img img {
+    width: 100%;
+
+}
+.project.info {
+    padding: 1em;
+    box-shadow: 5px black;
+}
+
+.project-category {
+    padding: 1em;
+    color: black;
+    box-shadow: 5px black;
+}
+
+   
+
+form {
+    background-color: Lavender;
+    width: 450px;
+    height: 500px;
+    border: 5px solid royalblue;
+    border-radius: 20px;
+    margin: 50px auto;
+}
+
+h5 {
+    margin-top: 20px;
+    color: black;
+    font-weight: bold;
+    font-size: 40px;
+    text-align: center;
+}
+input[type="text"],[type="password"] {
+    width: 300px;
+    height: 60px;
+    margin-bottom: 20px;
+    margin-left: 55px;
+    border: 1px solid royalblue;
+    border-radius: 10px;
+    outline: none;
+}
+input[type="submit"]{
+    width: 150px;
+    height: 60px;
+    margin-left: 150px;
+    border: 1px solid royalblue;
+    border-radius: 10px;
+    color: gray;
+    font-size: 30px;
+    outline: none;
+}
+input[type="checkbox"]{
+    color: black;
+    margin-bottom: 20px;
+    margin-left: 200px;
+    border: 1px solid royalblue;
+    border-radius: 10px;
+    font-size: 30px;
+    outline: none;
+   
+
+}
+
+h4 {
+    margin-top: 20px;
+    color: black;
+    font-size: 25px;
+    text-align: right;
+}
+.footer.li.a{
+    text-decoration: none;
+    font-size: 1.1em;
+    font-weight: 500;
+    padding-left: 30px; 
+}
+.footer.ul.a{
+    color: black;
+    text-decoration: none;
+    font-size: 1.1em;
+    font-weight: 500;
+    padding-left: 30px; 
+}
+.end {
+    background: black;
+    margin-bottom: 1px;
+    color: white;
+    font-size: 20px;
+    text-align: center;
+}
+
+.style {
+    color: black;
+}
+.head {
+    direction: rtl;
+    font-size: xx-large;
+    overflow: visible;
+}
+.clear {
+   justify-content: space-around;
+   
+}
+
+.footer {
+    text-align: end;
+    width: 100%;
+    height: 100%;
+    background: white;
+    background-repeat: repeat;
+}
